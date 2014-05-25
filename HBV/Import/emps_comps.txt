@@ -1,0 +1,168 @@
+Bjerknes Bahrami	Simon	1STA	Fotball	
+Danielsen	Marius Foske	1STA	Fotball	
+Gronvold	Thea Hovet	1STA	Fotball	
+Gulbrandsen	Herman F.	1STA	Fotball	
+Hasle	Simen	1STA	Fotball	
+Huseby	Jonas V.	1STA	Fotball	
+Kjolner	Ole-Kristian	1STA	Fotball	
+Kouta	Franck	1STA	Fotball	
+Magnussen	Oliver H.	1STA	Fotball	
+Nygaard	Thomas	1STA	Fotball	
+Pran	Ola	1STA	Fotball	
+Prosch	Fabian	1STA	Fotball	
+Seip Wold	Vilde	1STA	Fotball	
+Skaug	Jonas L.	1STA	Fotball
+Solvik	Elisabeth	1STA	Fotball
+Svendsen	Dennis	1STA	Fotball
+Sorensen	Jonas Ellefsen	1STA	Fotball
+Takvam	Lars M.	1STA	Fotball
+Tornby	Fredrik Dohlen	1STA	Fotball
+Wroldsen	Sjur G.	1STA	Fotball
+ostrem	Bjorg Ellinor	1STA	Fotball
+Bruun	Jostein	1STB	Fotball
+Jensen	Mads	1STB	Fotball
+Bjonness	Ulf Kristian	2STA	Fotball
+Blaauw	Trym Haakon	2STA	Fotball
+Brunstad	Ludvik	2STA	Fotball
+Danielsen	Harald	2STA	Fotball
+Fagernes	Anders Kihle	2STA	Fotball
+Jansson	Knut Nicolai Kirkeberg	2STA	Fotball
+Jorgensen	Andreas	2STA	Fotball
+Karlsen	Marius	2STA	Fotball
+Lakskjonn	Hans Jacob Omre	2STA	Fotball
+Lilleengen	Gard William	2STA	Fotball
+Lahne	Jesper	2STA	Fotball
+Midtlyng	Tobias	2STA	Fotball
+Moss	Reidar Bergh	2STA	Fotball
+Novsjo	Tobias	2STA	Fotball
+Raastad	Jonas Rodne	2STA	Fotball
+Sanyang	Alagie	2STA	Fotball
+Sveen	Mads Fossnes	2STA	Fotball
+Ostgaard	Oscar Myhre	2STA	Fotball
+Brook	Mats Hervik	3STA	Fotball
+Buer	Simon	3STA	Fotball
+Borvind	Marius Bjerke	3STA	Fotball
+Dahl	Robin Hofer	3STA	Fotball
+Folvik	Hermann Tinius	3STA	Fotball	
+Grelland	Sander Schaathun	3STA	Fotball	
+Grieg	Jonas Damsted	3STA	Fotball	
+Grytnes	Sindre Storhaug	3STA	Fotball	
+Hansen	Anders Holberg	3STA	Fotball	
+Hasselgreen	Espen	3STA	Fotball	
+Johansen	Jonas	3STA	Fotball	
+Levorsen	Martin	3STA	Fotball	
+Norheim	Vegard	3STA	Fotball	
+Pham	Tien	3STA	Fotball	
+Solum	Marius	3STA	Fotball	
+Engelstad	Peder	1STA	Golf	
+Grotterud	Niklas	1STA	Golf	
+Krokeide	Michael	1STA	Golf	
+Molvig	Erik	1STA	Golf	
+Skalleberg	Julie Marie	1STA	Golf	
+Syftestad	Simen	1STA	Golf	
+Sorensen	Martin Haugli	1STA	Golf	
+Fosaas	Hans Edvard Meen	2STA	Golf	
+Gulliksen	Jardar	2STB	Golf	
+Rollve	Fredrik	2STB	Golf	
+Jacobsen	Ludvig	3STB	Golf	
+Johannessen	Jorgen	3STB	Golf	
+Krokeide	Knud Andreas	3STB	Golf	
+Prosch	Markus	3STB	Golf	
+Aho	Sindre	1STB	Handball	
+Andresen	Sondre	1STB	Handball	
+Bergh Hatleskog	Alexandra	1STB	Handball	
+Fredriksen	Magnus	1STB	Handball	
+Gundersen	Aurora	1STB	Handball	
+Hansen	Silje	1STB	Handball	
+Hauane	Tormod	1STB	Handball	
+Lemke	Niklas Fjaer	1STB	Handball
+Lie	Andreas	1STB	Handball
+Lie	Julie	1STB	Handball
+Melcher	Thea	1STB	Handball
+Reiersen	Truls	1STB	Handball
+Skoglund	Trym Bjornsen	1STB	Handball
+Tesche Hansen	Sina Elisabeth	1STB	Handball
+Tollefsen	Mathias	1STB	Handball
+Ullitz	Cecilie Wick	1STB	Handball
+Aker	Fredrik S.	2STA	Handball
+Arnesen	Sofie Melgard	2STA	Handball
+Bartnes	Kristian	2STA	Handball
+Christensen	Njal	2STA	Handball
+Gronlie	Anders	2STA	Handball
+Hovland	Caroline Vendela	2STA	Handball
+Hytten	Sebastian	2STA	Handball
+Jansrud	Jorgen	2STA	Handball
+Langeid	Fredrik Aamodt	2STA	Handball
+Lysberg	Cathrine	2STA	Handball
+Nilsen	Trine	2STA	Handball
+Steinsto	Vegard Laupsa	2STA	Handball
+Stenkjaer	Karl Henrik	2STA	Handball
+Svendsen	Fredrik	2STA	Handball
+Undrum	Signe I	2STA	Handball
+Andersson	Pernille	3STA	Handball
+Blomberg	Kristian	3STA	Handball
+Brede	Jorgen	3STA	Handball
+Gabrielsen	Anna Benum	3STA	Handball
+Gjolberg	Amalie Magdalena	3STA	Handball
+Hamborg	Eirik	3STA	Handball
+Hobaek	Martine	3STA	Handball
+Jarnes	Karl Petter	3STA	Handball
+Karlsson	Rebecca Bakke	3STA	Handball	
+Kihle	Ida	3STA	Handball	
+Krohn	Frigg Hoegh	3STA	Handball	
+Pettersen	Charlotte	3STA	Handball	
+Syvertsen	Mari	3STA	Handball	
+ostby	Mari Ihlebaek	3STA	Handball	
+Fjelstad	Emil Berger	1STA	Ishockey	
+Moen	Alexander Gjol	1STA	Ishockey	
+Stensholt	Herman	1STA	Ishockey	
+Vugulis	Rihads	1STA	Ishockey	
+Hast	Marius Aasli	2STB	Ishockey	
+Kristiansen	Simen	2STB	Ishockey	
+Lagerwall	Karl Magnus	3STB	Ishockey	
+Nilsen	Mathilde	3STB	Ishockey	
+Armes	Tom-Christian	1STB	Kampidrett	
+Vedvik	Caroline Helland	1STB	Kampidrett	
+Elmrani	Nora	2STB	Kampidrett	
+Johansen	Kaja Bolstad	2STB	Kampidrett	
+Olsen	Rolf	2STB	Kampidrett	
+Srour	Ali	2STB	Kampidrett	
+Moser	Andreas	3STB	Kampidrett	
+Srour	Hadi	3STB	Kampidrett	
+Vang	Ask	3STB	Kampidrett	
+Abrahamsen	Eirik	1STB	Langrenn	
+Jenssen	Pal	1STB	Langrenn	
+Abrahamsen	Magnus	2STB	Langrenn	
+Christoffersen	Stian	2STB	Langrenn	
+Gleditsch	Marte	2STB	Langrenn	
+Jacobsen	Sondre	2STB	Langrenn	
+Olsen	Nikolai Myrvang	2STB	Langrenn	
+Schon	Benjamin Martin Kjelland	2STB	Langrenn	
+Smedsrud	Trym	2STB	Langrenn	
+Svendsen	Mathias Maagero	2STB	Langrenn	
+Fredriksen	Ingerid	3STB	Langrenn	
+Marcussen	oyvind	3STB	Langrenn	
+Moe	Kjell Kristoffer Watne	3STB	Langrenn	
+Rosenvinge	Aksel	3STB	Langrenn	
+Sagadalen	Karl Andreas	1STB	Sykkel	
+Sleen	Torjus	1STB	Sykkel	
+Tveitan	Henrik Augustin	1STB	Sykkel	
+Andresen	Marius Grodahl	2STB	Sykkel	
+Urianstad	Tomas	2STB	Sykkel	
+Bekkestad	Robin	3STB	Sykkel	
+Bokn	Glenn Christian	3STB	Sykkel	
+Mellegard	Markus Eid	3STB	Sykkel	
+Ostby	Kathrine Schonning	3STB	Sykkel	
+Aasbo	Live	1STA	Volleyball	
+Christophersen	Anne Semb	1STA	Volleyball	
+Ellingsen	Victoria Isabelle	1STA	Volleyball
+èAs	Amalie	1STA	Volleyball
+Aandahl	Emilie	2STB	Volleyball
+Haukaas	Sara	2STB	Volleyball
+Noren	Per Marius	2STB	Volleyball
+Norveel	Kjersti	2STB	Volleyball
+Naes	Maria	2STB	Volleyball
+Bastiansen	Ingeborg	3STB	Volleyball
+Gravdahl	 Astrid Volstad	3STB	Volleyball
+Honsen	Mathias	3STB	Volleyball
+Worren	Andrea Nikoline	3STB	Volleyball
