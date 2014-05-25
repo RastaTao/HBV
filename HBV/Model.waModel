@@ -1,0 +1,447 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Administrator": {
+				"panelColor": "#CCC1D9",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 71,
+						"Y": 60
+					}
+				}
+			},
+			"Student": {
+				"panelColor": "rgb(118, 146, 60)",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 561,
+						"Y": 79
+					}
+				}
+			},
+			"Test": {
+				"panelColor": "#996699",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 955,
+						"Y": 92
+					}
+				}
+			},
+			"Hurtighet": {
+				"panelColor": "#fff",
+				"panel": {
+					"isOpen": "false",
+					"pathVisible": true,
+					"position": {
+						"X": 1159,
+						"Y": 99
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 721,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"Administrator": {
+					"computed": "Administrator/Administrator-events.js",
+					"method": "Administrator/Administrator-methods.js"
+				},
+				"Student": {
+					"computed": "Student/Student-events.js",
+					"method": "Student/Student-methods.js"
+				},
+				"Test": {
+					"events": "Test/Test-events.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Administrator",
+			"className": "Administrator",
+			"collectionName": "AdministratorCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "user",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "password",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "model.Administrator.password.onGet",
+							"userDefined": true
+						}
+					],
+					"onSet": [
+						{
+							"from": "model.Administrator.password.onSet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "hashKey",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "validatePassword",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "model.Administrator.entityMethods.validatePassword",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Hurtighet",
+			"className": "Hurtighet",
+			"collectionName": "HurtighetCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree"
+				},
+				{
+					"name": "fiveM",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "tenM",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "twentyM",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				}
+			],
+			"key": [
+				{
+					"name": "ID"
+				}
+			]
+		},
+		{
+			"name": "Student",
+			"className": "Student",
+			"collectionName": "StudentCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "lastName",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "firstName",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "klass",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "sport",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "test",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Tests",
+					"reversePath": true,
+					"path": "student"
+				},
+				{
+					"name": "fullName",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "model.Student.fullName.onGet",
+							"userDefined": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Test",
+			"className": "Test",
+			"collectionName": "Tests",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "student",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Student",
+					"path": "Student"
+				},
+				{
+					"name": "date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false,
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "dd MM yy"
+						}
+					]
+				},
+				{
+					"name": "beepLevel",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "beepShuttle",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "hurtighetFive",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"format": "##.00",
+							"presentation": "text"
+						}
+					]
+				},
+				{
+					"name": "hurtighetTen",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"format": "##.00",
+							"presentation": "text"
+						}
+					]
+				},
+				{
+					"name": "hurtighetTwenty",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"format": "##.00",
+							"presentation": "text"
+						}
+					]
+				},
+				{
+					"name": "stilleLengde",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"format": "##.00",
+							"presentation": "text"
+						}
+					]
+				},
+				{
+					"name": "pushUp",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "brutalBenk",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "chins",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "kassehopp",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "benkpress",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "kneboy",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "liggendeOpptrekk",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				},
+				{
+					"name": "maksimalOksygenopptak",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number",
+					"defaultFormat": [
+						{
+							"presentation": "text",
+							"format": "#"
+						}
+					]
+				}
+			],
+			"events": [
+				{
+					"kind": "onInit",
+					"from": "model.Test.events.onInit",
+					"userDefined": true
+				}
+			]
+		}
+	],
+	"type": []
+}

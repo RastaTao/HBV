@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+	<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Test" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="update" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Test" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>
